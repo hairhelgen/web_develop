@@ -1,0 +1,57 @@
+body{
+    /* background-image: url("fone.jpg"); */
+    background: url("fone.jpg") no-repeat center scroll;
+}
+p{
+    color: white;
+    text-align: justify;
+    font: italic bold 16px/20px Arial;
+    text-indent: 30px;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h2{
+    color: blue;
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: "Times New Roman";
+}
+h3{
+    color: orange;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+td{
+    vertical-align: middle;
+    text-align: center;
+}
+th{
+    vertical-align: center;
+}
+.left{
+    text-align: left;
+}
+#link a:link, a:visited{
+    text-decoration: none;
+    color: red;
+}
+#link a:hover{
+    text-decoration: underline;
+    color: rgb(49, 179, 255);
+}
+#link{
+    border:10px groove rgb(49, 179, 255);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+a:link.table, a:visited.table{
+    text-decoration: underline;
+    color:rgb(49, 179, 255);
+}
+a:hover.table{
+    text-decoration: none;
+}
