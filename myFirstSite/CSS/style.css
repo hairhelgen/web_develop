@@ -1,6 +1,6 @@
 body{
     /* background-image: url("fone.jpg"); */
-    background: url("fone.jpg") no-repeat center scroll;
+    background: url("fone1.jpg") repeat center scroll;
 }
 p{
     color: white;
@@ -24,11 +24,15 @@ h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 td{
+    color: white;
     vertical-align: middle;
     text-align: center;
 }
 th{
     vertical-align: center;
+}
+ul, ol{
+    color: white;
 }
 .left{
     text-align: left;
