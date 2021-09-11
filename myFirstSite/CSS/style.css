@@ -1,16 +1,18 @@
 body{
     /* background-image: url("fone.jpg"); */
-    background: url("fone1.jpg") repeat center scroll;
+    /* background: url("fone1.jpg") repeat center scroll; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
 }
 p{
-    color: white;
-    text-align: justify;
-    font: italic bold 16px/20px Arial;
-    text-indent: 30px;
+    color: black; /*задаем цвет элемента*/
+    text-align: justify; /*задаем тексту выравниание по ширине*/
+    font: italic bold 16px/20px Arial; /*шрифт текста*/
+    text-indent: 30px; /*красная строка*/
 }
 h1{
     color: black;
-    text-align: center;
+    /* text-align: center; выравнивание текста по центру */
 }
 h2{
     color: blue;
@@ -24,7 +26,7 @@ h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 td{
-    color: white;
+    color: black;
     vertical-align: middle;
     text-align: center;
 }
@@ -33,6 +35,33 @@ th{
 }
 ul, ol{
     color: white;
+}
+.menu{
+    display: flex;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    border: 1px solid green;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    /* text-align: center; */
+}
+.point{
+    border: 1px solid red;
+    margin: 10px auto 20px;
+    display: inline;
+}
+.pMenu{
+    border: 1px solid red;
+    margin: 10px;
+    display: inline;
+}
+.head{
+    display: flex;
+    padding: 120px 20px 30px 20px;
+}
+.head img{
+    margin: 10px;
 }
 .left{
     text-align: left;
