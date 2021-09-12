@@ -1,0 +1,9 @@
+nav{
+    background-color: rgb(61, 60, 60);
+    margin: 0px 0px 0px 10 px;
+    font: 20px/10px sans-serif;
+    height: 50px;
+}
+nav a{
+    text-decoration: none;
+}
