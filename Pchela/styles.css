@@ -1,9 +1,33 @@
-nav{
+body{
+    margin: 0;
+}
+.center{
+    width: 800px;
+    margin: 0px auto;
+}
+.wrapper.line{
+    /* margin: 0; */
     background-color: rgb(61, 60, 60);
-    margin: 0px 0px 0px 10 px;
+}
+nav{
     font: 20px/10px sans-serif;
     height: 50px;
+    display: flex;
+    align-items: center;
 }
 nav a{
     text-decoration: none;
+    border: 1px solid rgb(185, 22, 22);
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
+nav a:hover, #active{
+    background-color: rgb(107, 105, 105);
+}
+.link{
+    /* height: 50px; */
+    padding: 25px 10px 0px 10px;
+}
+#container p{
+    text-align: justify;
 }
