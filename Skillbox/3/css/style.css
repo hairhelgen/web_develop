@@ -61,11 +61,11 @@ p {
   margin: 0;
 }
 
-h1 {
+.title {
   margin-bottom: 40px;
 }
 
-p {
+.text {
   margin-bottom: 40px;
   width: 872px;
 }
@@ -86,8 +86,12 @@ p {
   margin-bottom: 10px;
 }
 
-h2,
-h3 {
+.grayBlock p:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.subtitle {
   margin-bottom: 10px;
 }
 
