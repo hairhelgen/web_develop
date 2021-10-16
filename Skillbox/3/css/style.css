@@ -31,17 +31,17 @@ body {
   background-color: #070217;
 }
 
-.logo, .link {
+.logo, .sections {
   margin-bottom: 50px;
 }
 
-.link a{
+.sections .link{
   display: inline-block;
   padding: 24px 49px;
   margin-right: 25px;
 }
 
-.link a:last-child {
+.sections .link:last-child {
   margin-right: 0;
   margin-bottom: 0;
 }
@@ -52,20 +52,13 @@ body {
   width: 1170px;
 }
 
-h1, 
-h2,
-h3,
-ul,
-figure,
-p {
-  margin: 0;
-}
-
 .title {
+  margin: 0;
   margin-bottom: 40px;
 }
 
 .text {
+  margin: 0;
   margin-bottom: 40px;
   width: 872px;
 }
@@ -81,33 +74,36 @@ p {
   margin-bottom: 0;
 }
 
-.grayBlock p {
+.grayBlock .text {
   width: 692px;
   margin-bottom: 10px;
 }
 
-.grayBlock p:last-child {
+.grayBlock .text:last-child {
   margin-right: 0;
   margin-bottom: 0;
 }
 
 .subtitle {
+  margin: 0;
   margin-bottom: 10px;
 }
 
-ul {
+.pagination {
+  margin: 0;
   padding-left: 15px;
 }
 
-li {
+.item {
   margin-bottom: 10px;
 }
 
-li:last-child {
+.item:last-child {
   margin-bottom: 0;
 }
 
-figure {
+.imgDescription {
+  margin: 0;
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
