@@ -53,14 +53,14 @@ body {
   margin-bottom: 0;
 }
 
-.linkDownload {
+.link_download {
   padding-left: 30px;
   font-size: 18px;
   font-weight: 700;
   color: #3f2aff;
   background-image: url("../img/download.png");
   background-position: left center;
-  background-size: 20px 20px;
+  background-size: 20px;
   background-repeat: no-repeat;
 }
 
@@ -89,7 +89,9 @@ body {
   color: #333;
 }
 
-.textAttantion {
+.text_attantion {
+  margin: 0;
+  margin-bottom: 40px;
   padding: 50px 95px;
   border-radius: 20px;
   width: 100%;
@@ -99,7 +101,7 @@ body {
   background-color: #3f2aff;
 }
 
-.grayBlock {
+.gray_block {
   margin-bottom: 40px;
   padding: 30px;
   border-radius: 20px;
@@ -108,26 +110,28 @@ body {
   background-repeat: no-repeat;
 }
 
-.grayBlock:last-child {
+.gray_block:last-child {
   margin-bottom: 0;
 }
 
-.grayBlock .text {
+.gray_block .text {
   margin-bottom: 10px;
   width: 692px;
 }
 
-.grayBlock .text:last-child {
+.gray_block .text:last-child {
   margin-right: 0;
   margin-bottom: 0;
 }
 
 .books {
   background-image: url("../img/decorate-1.png");
+  background-size: auto;
 }
 
 .star {
   background-image: url("../img/decorate-2.png");
+  background-size: auto;
 }
 
 .subtitle {
@@ -157,7 +161,7 @@ body {
   margin-bottom: 10px;
 }
 
-.borderLi {
+.border_li {
   border-bottom: 1px solid #3f2aff;
   font-size: 20px;
   color: #3f2aff;
@@ -175,7 +179,7 @@ body {
   margin-bottom: 40px;
 }
 
-.imgDescription {
+.img_description {
   margin: 0;
   margin-bottom: 40px;
   display: inline-block;
