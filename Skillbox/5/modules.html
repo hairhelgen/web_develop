@@ -10,10 +10,69 @@
 
   <body>
     <div class="container">
-      <div class="main-content">
-        <img src="img/logo-dark.png" alt="skillbox_logo">
-        <a class="link_back" href="index.html">На главную</a>
-      </div>
+      <header class="header">
+        <a href="index.html" target="_blank" rel="nofollow noreferrer noopener"><img class="header__logo logo_dark-position" src="img/logo-dark.png" alt="skillbox_logo"></a>
+        <a class="header__link-back header__link-back_position" href="index.html">На главную</a>
+        <h1 class="header__title header__title_color-magenta">Модули курса Веб-верстка</h1>
+      </header>
+      <main class="main">
+        <ul class="cards-list">
+          <li class="cards-list__card-item">
+            <img class="cards-list__card-img" src="img/introduction.jpg" alt="printscreen_site">
+            <div class="cards-list__card-description">
+              <h2 class="cards-list__card-title">Введение</h2>
+              <ul class="cards-list__card-text-list">
+                <li class="cards-list__card-text-item">Как работают сайты. Верстка</li>
+                <li class="cards-list__card-text-item">Ваозможности HTML, CSS, JS</li>
+                <li class="cards-list__card-text-item">Редактор кода. Codepen</li>
+                <li class="cards-list__card-text-item">Работа с DevTools</li>
+              </ul>
+            </div>
+            <span class="cards-list__card-number">01</span>
+          </li>
+          <li class="cards-list__card-item">
+            <img class="cards-list__card-img" src="img/basic_html.jpg" alt="printscreen_code">
+            <div class="cards-list__card-description">
+              <h2 class="cards-list__card-title">Базовый HTML</h2>
+              <ul class="cards-list__card-text-list">
+                <li class="cards-list__card-text-item">Базовые теги</li>
+                <li class="cards-list__card-text-item">Теги картнок и ссылок</li>
+                <li class="cards-list__card-text-item">Теги таблиц</li>
+                <li class="cards-list__card-text-item">Служебные теги</li>
+                <li class="cards-list__card-text-item">Кодстайл HTML</li>
+              </ul>
+            </div>
+            <span class="cards-list__card-number">02</span>
+          </li>
+          <li class="cards-list__card-item">
+            <img class="cards-list__card-img" src="img/basic_css.jpg" alt="books_css">
+            <div class="cards-list__card-description">
+              <h2 class="cards-list__card-title">Базовый CSS</h2>
+              <ul class="cards-list__card-text-list">
+                <li class="cards-list__card-text-item">Подключение CSS</li>
+                <li class="cards-list__card-text-item">Вес селектора</li>
+                <li class="cards-list__card-text-item">Свойство display</li>
+                <li class="cards-list__card-text-item">Блочная модель и позиционирование</li>
+                <li class="cards-list__card-text-item">Кодстайл CSS</li>
+              </ul>
+            </div>
+            <span class="cards-list__card-number">03</span>
+          </li>
+          <li class="cards-list__card-item">
+            <img class="cards-list__card-img" src="img/working_with_layout.jpg" alt="printscreen_figma">
+            <div class="cards-list__card-description">
+              <h2 class="cards-list__card-title">Работа с макетом</h2>
+              <ul class="cards-list__card-text-list">
+                <li class="cards-list__card-text-item">Про форматы изображений</li>
+                <li class="cards-list__card-text-item">Работа с макетом в Photoshop</li>
+                <li class="cards-list__card-text-item">Работа с макетом в Figma</li>
+              </ul>
+            </div>
+            <span class="cards-list__card-number">04</span>
+          </li>
+        </ul>
+        <button class="button-more">Показать еще</button>
+      </main>
     </div>
   </body>
 </html>
